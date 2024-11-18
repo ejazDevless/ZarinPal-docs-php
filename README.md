@@ -63,6 +63,8 @@ COMMIT;
 $username = '-----'; // input username
 $amount = '-----'; // input money
 ```
+To create a portal, you only need to enter your user's username and the amount of the payment gateway in IRT
+
 
 ### Codes
 
