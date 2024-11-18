@@ -42,6 +42,13 @@ $username = '-----'; // input username
 $amount = '-----'; // input money
 ```
 
+### Errors
+
+| ErrorCode | Message |
+| ---- | ------------- |
+| 101 |     The transaction has already been confirmed     |
+| 39 |     Problem creating payment gateway    |
+
 ### Resources
 
 - Check out the docs at https://www.zarinpal.com/docs/
