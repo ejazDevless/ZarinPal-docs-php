@@ -11,17 +11,8 @@
 
 > easy, fast and elegant library for making payments
 
-``` PHP
-from rubika import Bot, Socket
-from rubika.filters import filters
 
-bot = Bot("MyApp")
-app = Socket(bot.auth)
-
-@app.handler(filters.PV)
-def hello(message):
-    message.reply("Hello from Rubikalib!")
-```
+This library was created only for the purpose of familiarizing and facilitating the work of programmers in this field, and all its intellectual and material rights belong to Zarin Pal!
 
 
 ### Config.php
@@ -42,12 +33,17 @@ $username = '-----'; // input username
 $amount = '-----'; // input money
 ```
 
-### Errors
+### Codes
 
-| ErrorCode | Message |
+| Code | Message |
 | ---- | ------------- |
+| 100 |     The operation was successful    |
 | 101 |     The transaction has already been confirmed     |
 | 39 |     Problem creating payment gateway    |
+| 52 |      Non-payment or cancellation of payment   |
+| 55 |     There is no transaction in the system    |
+| 40 |     System error    |
+| 500 |     DB error    |
 
 ### Resources
 
